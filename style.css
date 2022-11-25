@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+.header
+{
+height: 550px;
+width: 100%;
+background-color: black;
+background-size: cover;
+background-position: center;
+}
+nav
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 30px;
+padding-left: 10px;
+padding-right: 10px;
+}
+.logo{
+color: white;
+font-size: 33px;
+margin-left: 40px;
+}
+nav ul li{
+display: inline-block;
+padding: 10px  30px;
+}
+nav ul li a{
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+.my-logo{
+display: flex;
+height: 60px;
+border-radius: 30px;
+margin-right: 20px;
+}
+.paragraph{
+margin-top: 120px;
+margin-left: 80px;
+}
+.first-line{
+color: lightgreen;
+font-size: 25px;
+font-weight: 500;
+}
+.second-line{
+color: rgb(231, 231, 173);
+font-size: 50px;
+font-weight: 700;
+font-family: Kalam;
+margin-bottom: -1px;
+}
+.third-line{
+color: lightgreen;
+font-size: 30px;
+font-weight: 500;
+}
+span{
+color: lightcoral;
+font-family: Kalam;
+}
+.resume{
+    display: flex;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-top: 10px;
+}
+.resume:hover{
+cursor: pointer;
+background-color: white;
+transition: 0.4s;
+}
+.about{
+background-color: black;
+width: 100%;
+height: 100vh;
+}
+.about-me{
+display: flex;
+align-items: center;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+}
+.my-photo{
+height: 400px;
+margin-left: 60px;
+margin-top: 50px;
+border-radius: 50px;
+}
+.text1{
+display: inline-block;
+margin-left: 200px;
+}
+.fourth-line{
+height: 80px;
+font-weight: 700;
+font-size: 50px;
+font-family:Kalam;
+margin-bottom: 10px;
+color: yellow;
+display: flex;
+justify-content: center;
+width: 100%;
+}
+.fifth-line{
+height: 30px;
+font-weight: 500;
+font-size: 20px;
+color: lightgreen;
+}
+.box{
+display:inline-block;
+background-color: rgb(44, 42, 42);
+margin-left: 10px;
+margin-right: 10px;
+height: 250px;
+width: 380px;
+border-radius: 30px;
+}
+.education{
+background-color: black;
+height: 100vh;
+width: 100%;
+padding-left: 20px;
+padding-right: 10px;
+}
+.school,.college,.ug{
+color: rgb(255, 255, 143);
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+.school{
+margin-left: 125px;
+}
+.college{
+margin-left: 105px;
+}
+.ug{
+margin-left: 160px;
+}
+.school-info{
+color: lightgreen;
+font-size: 20px;
+font-weight: 500;
+margin-left: 21px;
+margin-top: 10px;
+
+}
+b{
+color: lightcoral;
+font-size: 21px;
+}
+.tittle{
+color: yellow;
+height: 80px;
+font-weight: 700;
+font-size: 50px;
+font-family:Kalam;
+display: flex;
+justify-content: center;
+width: 100%;
+}
+.card{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 400px;
+}
+.info{
+display: inline-block;
+justify-content: space-between;
+align-items: center;
+margin-left: 50px;
+margin-top: 15px;
+}
+.certificate{
+display: inline-block;
+height: 150px;
+margin-left: 80px;
+margin-top: 10px;
+border-radius: 5px;
+}
+.badge{
+    display: inline-block;
+    height: 170px;
+}
+.html-logo{
+width: 40px;
+border-radius: 10px;
+}
+.python-logo{
+height: 35px;
+border-radius: 10px;
+}
+.sixth-line{
+font-size: 20px;
+height: 30px;
+display: flex;
+align-items: center;
+color: lightgreen;
+}
+.seventh-line{
+display: flex;
+align-items: center;
+font-size: 20px;
+color: lightgreen;
+}
+.skills{
+background-color: black;
+height: 450px;
+width: 100%;
+}
+/* Style all font awesome icons */
+.fa {
+background-color: rgb(44, 42, 42);
+color: white;
+height: 50px;
+width: 50px;
+border-radius: 25px;
+padding-top: 7px;
+font-size: 37px;
+text-align: center;
+text-decoration: none;
+}
+/* Add a hover effect if you want */
+.fa:hover
+{
+transform: scale(1.15);
+transition: .3s;
+opacity: 0.9;
+}
+.contact{
+height: 250px;
+background-color: black;
+}
+.fa-linkedin{
+margin-left: 10px;
+margin-right: 10px;
+}
+.intro{
+display: flex;
+align-items: center;
+margin-top: 10px;
+margin-left: 570px;
+height: 30px;
+font-weight: 500;
+font-size: 20px;
+color: lightgreen;
+}
+.social{
+margin-top: 10px;
+margin-left: 545px;
+}  
